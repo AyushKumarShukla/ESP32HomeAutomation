@@ -2,7 +2,9 @@
 This project is a simple demonstration of a prototype home automation system.
 The project contains both hardware and software aspects:
 1. Software:
+
      The the code has been written entirely using the Arduino framework, the arduino framework provides a simple API that allows us to deploy a WiFi server on microcontrollers and send/receive data from clients     through HTTP and Websockets
+   
 3. Hardware:
      The ESP-32 is a microcontroller made by EspressIf which has built in WiFi and bluetooth capabilities.
      There are 5 distinct modules implemented under the project, these are shown in the schematic diagram below:
@@ -13,10 +15,11 @@ Features:
           Hosted on a ESP-32 development board for remote control of smart home features
 2.	Environmental monitoring
 	     Temperature and humidity monitoring using DHT-11 sensor
+  	
 	     Smoke/gas alarm system using MQ-2 sensor
-3.	LED control
+4.	LED control
 	     RGB LED hue control and LED toggle
-4.	High voltage device toggle
+5.	High voltage device toggle
           Using transistors, relay and 9V DC motor as a high voltage device
 
 The prototype veroboard circuit that includes the hardware for the desired embedded system is shown below:
